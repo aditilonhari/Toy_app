@@ -8,7 +8,7 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
-gem 'pg', '>=0.20.0'
+gem 'pg', '0.21.0'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
@@ -50,7 +50,7 @@ group :development do
 end
 
 group :production do
-  gem 'pg', '>=0.20.0'
+  gem 'pg', '0.21.0'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
